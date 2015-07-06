@@ -2,3 +2,35 @@
 body {
   font-family: sans-serif;
 }
+
+a {
+  color: white;
+}
+
+.bar {
+  background: #77a;
+  color: white;
+  padding: 1em;
+}
+
+.centerbar {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.leftbar {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.rightbar {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
