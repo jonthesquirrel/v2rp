@@ -1,4 +1,6 @@
 
+/* base elements */
+
 body {
   font-family: sans-serif;
 }
@@ -6,6 +8,8 @@ body {
 a {
   color: white;
 }
+
+/* top bar */
 
 .bar {
   background: #77a;
@@ -33,4 +37,10 @@ a {
   position: fixed;
   top: 0;
   right: 0;
+}
+
+/* general utility */
+
+.center {
+  text-align: center;
 }
