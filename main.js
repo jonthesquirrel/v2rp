@@ -1,0 +1,13 @@
+
+var app = {};
+
+app.checkSupport = function () {
+  return (window.File && window.FileReader);
+};
+
+app.load = function () {
+
+  document.querySelector('.appstatus').innerHTML = app.checkSupport() ? 'Loaded' : 'Your browser does not support the required HTML5 APIs, try an updated version of Chrome or Firefox';
+};
+
+window.addEventListener('load', app.load);
